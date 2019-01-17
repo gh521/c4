@@ -4,7 +4,7 @@ char arr[1024];
 int isMingan(char x)
 {
     int count = 0;
-    for (int i = 0; i; < index; i++)
+    for (int i = 0; i< index; i++)
     {
         if (x == arr[i])
         {
@@ -38,15 +38,29 @@ int main()
             char x;
             char i;
             printf("qinshuruyaotianjiade minganzhifu\n");
-            scanf("%c",&x);
-            scanf("%c",&x);
-            arr[index]=x;
+            scanf("%c", &x);
+            scanf("%c", &x);
+            arr[index] = x;
             index++;
-            scanf("%c",&i);
-            scanf("%c",&i);
+            scanf("%c", &i);
+            scanf("%c", &i);
         }
         if (coude == 2)
         {
+            char  x;
+            if(index>0)
+            {
+                index--;
+                printf("chenggngjixu\n");
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
+            else
+            {
+                printf("shibai\n");
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
         }
         if (coude == 3)
         {
@@ -56,8 +70,7 @@ int main()
         }
         if (coude == 5)
         {
-            printf("tuichu\n");
-            break;
+        
         }
     }
 
