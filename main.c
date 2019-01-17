@@ -64,6 +64,8 @@ int main()
         }
         if (coude == 3)
         {
+         
+
         }
         if (coude == 4)
         {
